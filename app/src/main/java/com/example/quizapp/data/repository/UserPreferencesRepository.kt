@@ -38,7 +38,6 @@ class UserPreferencesRepository(
             preferences[key] ?: 0
         }
     }
-
     suspend fun saveScoreIfBest(difficulty: Difficulty, newScore: Int): Boolean {
         val key = getKeyForDifficulty(difficulty)
         val currentBest = getBestScore(difficulty).first()
