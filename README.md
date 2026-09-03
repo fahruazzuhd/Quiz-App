@@ -31,11 +31,11 @@ Aplikasi Quiz sederhana berbasis Android Native yang dibuat menggunakan **Kotlin
 
 1. **Clone Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/fahruazzuhd/Quiz-App.git
    cd QuizApp
    ```
 2. **Buka di Android Studio**:
-   - Gunakan Android Studio Ladybug / Jellyfish (atau versi terbaru yang mendukung AGP 8.x+ dan Compose).
+   - Gunakan Android Studio Meerkat (atau versi lain yang mendukung AGP 8.x+ dan Compose).
    - Biarkan Gradle Sync berjalan hingga selesai.
 3. **Jalankan Aplikasi**:
    - Pilih emulator Android (API 24+) atau perangkat fisik.
